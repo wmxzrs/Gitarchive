@@ -1,0 +1,89 @@
+/*css document*/
+
+*{font-family: "montserat",sans-serif;}
+
+
+body {
+    background: 
+    rgba(88, 171, 238, 0.9
+    )
+    
+    url("https://gimg2.baidu.com/image_search/src=http%3A%2F%2F5b0988e595225.cdn.sohucs.com%2Fimages%2F20200305%2F1cec4f5fdf3d4f97aebd07e4c6bea914.jpeg&refer=http%3A%2F%2F5b0988e595225.cdn.sohucs.com&app=2002&size=f9999,10000&q=a80&n=0&g=0n&fmt=jpeg?sec=1612284794&t=cbc85bf288ae45f30349b14dc73d53f7") no-repeat center fixed;
+
+}
+nav,li {
+    
+    
+}
+
+li {
+    float: left;
+    list-style-type: none;
+    background: rgb(8, 157, 216,.9);
+    margin-left: 5px;
+    padding: 2;
+    font-size: smaller;
+
+    
+}
+
+
+
+a {
+    background-color: #0ec5fb;
+    color:white;
+    width: 100px;
+    height: 50px;
+    text-decoration: none;
+    line-height: 50px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: block;
+}
+
+
+a:hover{
+    background-color:#16825d;
+}
+a:visited {
+    color: aliceblue;
+}
+a:active {
+    
+    color:red;
+    background-attachment: fixed;
+
+
+}
+
+.a1 {
+    
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    text-align: center;
+   z-index: 1;
+}
+
+.div1,.div2,.div3 {
+    background-color: white;
+    font-size: 18px;
+    border-color:#e3782f;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-top: 10%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: small;
+    font-weight: 400;
+    letter-spacing: 2px;
+    padding: 5% 5%;
+}
+.div1{
+    opacity: 0.5;
+}
+.div2{
+    opacity: 0.5;
+}
+.div3{
+    opacity: 0.5;
+}

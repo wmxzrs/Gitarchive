@@ -1,0 +1,44 @@
+/* css document */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbox {
+    
+    float: left;
+    background-color: aqua;
+   width: 200px;
+    
+    
+    
+}
+.container {
+    
+    
+    background-color: antiquewhite;
+    
+}
+.head {
+	position: fixed;
+	
+	height: 3.125rem;
+	left: 12.5rem
+	;
+	background-color: #141E30;
+	text-align: right;
+}
+.head ul {
+	width: 1720px;
+	list-style: none;
+	color: white;
+}
+.head ul li {
+	
+	float: left;
+	line-height: 50px;
+	margin-left: 0.625rem;
+}
+
+
