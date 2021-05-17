@@ -1,0 +1,15 @@
+ul .timeline {
+    list-style-type:none;
+    background: rgba(44, 55, 66, .8) repeat-y scroll 120px 0 transparent;
+    margin: 50px 0;
+    padding: 0;
+
+}
+ul .timeline li {
+    position: relative;
+    margin-bottom: 20px;
+}
+ul .timeline li .number {
+    position: absolute;
+    background
+}
