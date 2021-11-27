@@ -10,6 +10,7 @@ body {
     justify-content: center;
     align-items: center;
     /* 让页面始终占浏览器可视区域的总高 */
+	width:80%;
     height: 100vh;
     background-color: #eee;
 
@@ -29,7 +30,7 @@ body {
     margin: 0 10px;
     border-radius: 25px;
     background-color: #fff;
-    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px -5px rgba(0,0,0,0.5);
 
 }
 
@@ -98,5 +99,5 @@ body {
 .container .btn:hover .fa{
     color: #fff;
     /* 鼠标移入恢复1倍 */
-    transform: scale(1);
+    transform: scale(1.5);
 }

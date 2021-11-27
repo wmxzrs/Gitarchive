@@ -62,7 +62,7 @@ a {
 
 }
 
-.navbar .nav ul > li ol {
+.navbar .nav ul > li  ol {
     width: 100%;
     background-color: #fff;
     box-shadow: 1px 1px 3px rgba(0,0,0,.2);

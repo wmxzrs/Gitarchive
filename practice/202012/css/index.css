@@ -12,7 +12,8 @@ body {
 
 }
 nav,li {
-    
+    margin:auto 10px;
+	
     
 }
 
@@ -27,23 +28,34 @@ li {
     
 }
 
-
+.a1 {
+    
+    position: relative;
+    top: 100px;
+    left: 10px;
+	z-index: 1;
+   
+}
 
 a {
-    background-color: #0ec5fb;
+	
+    background-color: #ffaaff;
     color:white;
     width: 100px;
     height: 50px;
     text-decoration: none;
-    line-height: 50px;
-    border-radius: 10px;
-    margin-top: 5px;
     display: block;
+	
+    border-radius: 10px;
+    margin-bottom: 6px;
+	
+
+	line-height: 50px;
 }
 
 
 a:hover{
-    background-color:#16825d;
+    background-color:#820e27;
 }
 a:visited {
     color: aliceblue;
@@ -54,15 +66,6 @@ a:active {
     background-attachment: fixed;
 
 
-}
-
-.a1 {
-    
-    position: fixed;
-    top: 20px;
-    left: 10px;
-    text-align: center;
-   z-index: 1;
 }
 
 .div1,.div2,.div3 {
@@ -77,13 +80,5 @@ a:active {
     font-weight: 400;
     letter-spacing: 2px;
     padding: 5% 5%;
-}
-.div1{
-    opacity: 0.5;
-}
-.div2{
-    opacity: 0.5;
-}
-.div3{
-    opacity: 0.5;
+	opacity: 0.5;
 }
